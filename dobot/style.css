@@ -55,6 +55,9 @@ p{
   color: #6d7171;
   width:400px;
   margin-bottom: 15px;
+  font-family:inherit;
+  font-weight: 400;
+
   
 }
 
@@ -132,8 +135,8 @@ a.button:hover{
   float:right;
   clear:both;
   margin-top:-380px;
- width:500px;
- height:700px;
+ width:600px;
+ height:800px;
   
 
 
@@ -144,8 +147,8 @@ a.button:hover{
   float:right;
   clear:both;
   margin-top:-340px;
- width:500px;
- height:600px;
+ width:600px;
+ height:700px;
   
 
 
@@ -157,8 +160,8 @@ a.button:hover{
   float:right;
   clear:both;
   margin-top:-350px;
-  width:500px;
- height:500px;
+  width:600px;
+ height:600px;
 
   
 
@@ -203,7 +206,7 @@ a.button{
 .borderbtm{
     border: 1px dotted #6d7171;
   margin-right:8px;
-  margin-top:400px;
+  margin-top:500px;
   margin-left:3px;
   margin-bottom:35px;
 
@@ -212,8 +215,8 @@ a.button{
 }
 
 .borderbtm:nth-of-type(2){
-margin-top:350px;
-margin-bottom:40px;
+margin-top:450px;
+margin-bottom:50px;
 
 
 
