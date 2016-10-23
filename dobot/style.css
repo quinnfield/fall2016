@@ -1,12 +1,12 @@
+
 body{
-	background-color: #1a2325;
-	color: white;
-	margin-right:auto;
-	margin-left:auto;
-	width:1100px;
-	height:2500px;
-   
-    font-family: LFT Etica;
+  background-color: #1a2325;
+  color: white;
+  margin-right:auto;
+  margin-left:auto;
+  width:1100px;
+  height:2500px;
+  font-family: LFT Etica;
 
 
 
@@ -17,8 +17,7 @@ body{
 
 .bordertop{
  border-top: 3px solid #f8695a;
- 
-position:absolute;
+ position:absolute;
 right:0;
 left:0;
 }
@@ -29,46 +28,76 @@ left:0;
 
 
 h1{
-	font-family: Quatro Slab;
-	font-size: 36px;
+  font-family: Quatro Slab;
+  font-size: 36px;
+  padding-top:50px;
+
 }
+
+
+h1:nth-child(3){
+  width:300px;
+
+}
+
+
+
+
+h2{
+  padding-top: 30px;
+}
+
 
 
 
 p{
-	font-size:16px;
-	color: #6d7171;
-	width:400px;
-	padding-top:5px;
-	
+  font-size:16px;
+  color: #6d7171;
+  width:400px;
+  margin-bottom: 15px;
+  
 }
 
 p.Firstp{
 
-
-font-weight: bold;
-margin-top:-30px;
+padding-top:10px;
 color: #454a4b;
 
 
 
-
-
 }
 
 
-a.made{
-	text-decoration: none;
-	color: #01ccce;
-	font-family: inherit;
-	font-size:16px;
-}
+
+
+
 
 
 h2.BUY{
-	font-family: Quatro Slab;
-	font-size: 24px;
+  font-family: Quatro Slab;
+  font-size: 24px;
+
 }
+
+
+
+
+a.made{
+  text-decoration: none;
+  color: #01ccce;
+  font-family: inherit;
+  font-size:16px;
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -83,6 +112,7 @@ h2.BUY{
     font-family: inherit;
     font-weight: 600 ;
     margin-left:9px;
+
     
 }
 
@@ -93,7 +123,7 @@ color:white;
 
 
 a.button:hover{
-	color:#1a2325;
+  color:#1a2325;
 }
 
 
@@ -101,9 +131,7 @@ a.button:hover{
 .image1{
   float:right;
   clear:both;
-  margin-top:-400px;
-  margin-right:30px;
-  margin-left:100px;
+  margin-top:-380px;
  width:500px;
  height:700px;
   
@@ -115,9 +143,7 @@ a.button:hover{
 .image2{
   float:right;
   clear:both;
-  margin-top:-400px;
-  margin-right:30px;
-  margin-left:100px;
+  margin-top:-340px;
  width:500px;
  height:600px;
   
@@ -130,10 +156,8 @@ a.button:hover{
 .image3{
   float:right;
   clear:both;
-  margin-top:-400px;
-  margin-right:30px;
-  margin-left:100px;
- width:500px;
+  margin-top:-350px;
+  width:500px;
  height:500px;
 
   
@@ -148,16 +172,16 @@ a.button:hover{
 
 .logo{
     width: 100px;
-	height: 100px;
+  height: 100px;
 }
 
 
 
 
 .dotted{
-	border: .25px dotted #6d7171;
-	margin-right:640px;
-	margin-top:20px;
+  border: .25px dotted #6d7171;
+  margin-right:710px;
+  margin-top:20px;
 }
 
 
@@ -166,10 +190,10 @@ a.button:hover{
 
 
 a.button{
-	text-decoration: none;
-	color:white;
-	font-family: LFT Etica;
-	font-size:14px;
+  text-decoration: none;
+  color:white;
+  font-family: LFT Etica;
+  font-size:14px;
 }
 
 
@@ -178,26 +202,35 @@ a.button{
 
 .borderbtm{
     border: 1px dotted #6d7171;
-	margin-right:8px;
-	margin-top:360px;
-	margin-left:3px;
-	margin-bottom: 70px;
-
-
-}
-
-.borderbtm:nth-of-type(2)
-{
-margin-top:285px;
+  margin-right:8px;
+  margin-top:400px;
+  margin-left:3px;
+  margin-bottom:35px;
 
 
 
 }
 
-article{
-	margin-left:40px;
+.borderbtm:nth-of-type(2){
+margin-top:350px;
+margin-bottom:40px;
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
