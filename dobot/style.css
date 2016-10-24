@@ -4,32 +4,25 @@ body{
   color: white;
   font-family: LFT Etica;
   border-top: 5px solid red ;
-
- 
-
 }
 
 
-h1{
+h1,h2{
   font-family: Quatro Slab;
   font-size: 36px;
-  padding-top:30px;}
-
-
-
-h2{
-  padding-top: 30px;}
-
-
+  padding-top:50px;}
 
 p{
   font-size:16px;
-  color: #6d7171;
-  width:400px;
-   padding-bottom:15px;
-   font-weight: 300;}
+    color: #6d7171;
+   width:400px;
+padding-bottom:15px;
+font-weight: 300;
+line-height: 22px;
 
-  .Firstp{
+}
+
+.Firstp{
 padding-top:10px;
 color: #454a4b;}
 
@@ -42,7 +35,11 @@ color: #454a4b;}
   text-decoration: none;
   color: #01ccce;
   font-size:16px;
-  font-weight: 300;}
+  font-weight: 300;
+  display: inline-block;
+  padding-top:10px;
+
+}
 
 
 
@@ -62,18 +59,15 @@ color: #454a4b;}
    width:600px;
    position: relative;
 
+   
+ }
  
 
-   }
- 
-
-
-
- .logo{
+.logo{
     width: 100px;
  
+}
 
-  }
 
 .header,article{
  margin-right:auto;
@@ -86,6 +80,8 @@ color: #454a4b;}
 
 article{
    clear:both;
+
+
 }
     
 
