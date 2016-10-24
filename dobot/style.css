@@ -6,47 +6,18 @@ body{
   margin-left:auto;
   width:1100px;
   height:2500px;
-  font-family: LFT Etica;
-
-
-
-
-   
-}
-
-
-.bordertop{
- border-top: 3px solid #f8695a;
- position:absolute;
-right:0;
-left:0;
-}
-
-
-
-
+  font-family: LFT Etica;}
 
 
 h1{
   font-family: Quatro Slab;
   font-size: 36px;
-  padding-top:50px;
-
-}
-
-
-h1:nth-child(3){
-  width:300px;
-
-}
-
+  padding-top:50px;}
 
 
 
 h2{
-  padding-top: 30px;
-}
-
+  padding-top: 30px;}
 
 
 
@@ -54,192 +25,52 @@ p{
   font-size:16px;
   color: #6d7171;
   width:400px;
-  margin-bottom: 15px;
-  font-family:inherit;
-  font-weight: 300;
+   padding-bottom:15px;
+   font-weight: 300;}
 
-  
-}
-
-p.Firstp{
-
+  .Firstp{
 padding-top:10px;
-color: #454a4b;
+color: #454a4b;}
 
 
-
-}
-
-
-
-
-
-
-
-h2.BUY{
+.BUY{
   font-family: Quatro Slab;
-  font-size: 24px;
+  font-size: 24px;}
 
-}
-
-
-
-
-a.made{
+.made{
   text-decoration: none;
   color: #01ccce;
-  font-family: inherit;
   font-size:16px;
-  font-weight: 300;
-
-
-
-}
-
-
-
-
-
-
-
+  font-weight: 300;}
 
 
 
 .button {
-
     color: white;
     border: none;
     background-color:#01ccce;;
     padding: 15px 32px;
     text-align: center;
     font-size: 14px;
-    font-family: inherit;
     font-style: bold;
     margin-left:9px;
-
-    
-}
-
-
-a.made:hover{
-color:white;
-}
-
-
-a.button:hover{
-  color:#1a2325;
-}
-
-
-
-.image1{
-  float:right;
-  clear:both;
-  margin-top:-380px;
- width:600px;
- height:800px;
+    text-decoration: none;}
   
-
-
-}
-
-
-.image2{
+.image{
   float:right;
-  clear:both;
-  margin-top:-340px;
- width:600px;
- height:700px;
-  
-
-
-}
+   width:600px;
+   }
+ 
 
 
 
-.image3{
-  float:right;
-  clear:both;
-  margin-top:-350px;
-  width:600px;
- height:600px;
-
-  
-
-
-}
-
-
-
-
-
-
-.logo{
-    width: 100px;
-  height: 100px;
-}
-
-
-
-
-.dotted{
-  border: .25px dotted #6d7171;
-  margin-right:710px;
-  margin-top:20px;
-}
-
-
-
-
-
-
-a.button{
-  text-decoration: none;
-  color:white;
-  font-family: LFT Etica;
-  font-size:14px;
-}
-
-
-
-
-
-.borderbtm{
-    border: 1px dotted #6d7171;
-margin-left:30px;
-  margin-top:500px;
-
-  margin-bottom:35px;
-
-
-
-}
-
-.borderbtm:nth-of-type(2){
-margin-top:450px;
-margin-bottom:50px;
-margin-left:30px;
-
-
-
-}
-
-
+ .logo{
+    width: 100px;}
 
 
 article{
-  margin-left:30px;
+  padding:40px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
