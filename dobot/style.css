@@ -1,4 +1,3 @@
-
 body{
   background-color: #1a2325;
   color: white;
@@ -7,10 +6,10 @@ body{
 }
 
 
-h1,h2{
+h1{
   font-family: Quatro Slab;
   font-size: 36px;
-  padding-top:50px;}
+  padding-top:100px;}
 
 p{
   font-size:16px;
@@ -27,9 +26,7 @@ padding-top:10px;
 color: #454a4b;}
 
 
-.BUY{
-  font-family: Quatro Slab;
-  font-size: 24px;}
+
 
 .made{
   text-decoration: none;
@@ -40,6 +37,24 @@ color: #454a4b;}
   padding-top:10px;
 
 }
+
+
+
+
+h2{font-family: Quatro Slab;
+  font-size: 36px;
+  padding-top:50px;
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -58,6 +73,8 @@ color: #454a4b;}
   float:right;
    width:600px;
    position: relative;
+bottom:30px;
+   padding-bottom:90px;
 
    
  }
@@ -85,11 +102,3 @@ article{
 
 
 }
-    
-
-
-
-
-
-
-
