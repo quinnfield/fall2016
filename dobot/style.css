@@ -59,6 +59,9 @@ color: #454a4b;}
 .image{
   float:right;
    width:600px;
+   position: relative;
+ 
+
    }
  
 
@@ -69,7 +72,7 @@ color: #454a4b;}
 
 
 article{
-  padding:40px;
+  clear:both;
 }
 
 
