@@ -29,6 +29,7 @@ h2{
   border-top:1px dotted #6d7171;
   padding:3px;
   width:400px;
+
 }
 
 
@@ -68,7 +69,7 @@ article:nth-child(4){
   float:right;
    width:645px;
    position: relative;
-bottom:50px;
+   bottom:38px;
    padding-bottom:50px;
 
    
@@ -87,7 +88,7 @@ bottom:50px;
 .header,article{
  margin-right:auto;
   margin-left:auto;
-   width: 1090px;
+   width: 1100px;
 
 
 }
@@ -100,7 +101,7 @@ bottom:50px;
 .BUY{
   font-family: Quatro Slab;
   font-size: 36px;
-  padding-top:20px;
+  padding-top:50px;
 
 
 
