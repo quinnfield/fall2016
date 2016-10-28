@@ -1,13 +1,13 @@
 body{
   background-color: #1a2325;
   color: white;
-  font-family: LFT Etica;
+  font-family: "LFT Etica";
   border-top: 5px solid #f8695a;
 }
 
 
 h1{
-  font-family: Quatro Slab;
+  font-family: "Quatro Slab";
   font-size: 36px;
   padding-top:100px;}
 
@@ -99,7 +99,7 @@ article:nth-child(4){
 
 
 .BUY{
-  font-family: Quatro Slab;
+  font-family: "Quatro Slab";
   font-size: 36px;
   padding-top:50px;
 
@@ -116,11 +116,10 @@ article:nth-child(4){
     color: white;
     border: none;
     background-color:#01ccce;
-    font-family: LFT Etica;
+    font-family: "LFT Etica";
     font-weight: 600;
     padding: 15px 28px;
     font-size: 14px;
-    font-style: bold;
     margin-left:20px;
     margin-top:-5px;
     text-decoration: none;
