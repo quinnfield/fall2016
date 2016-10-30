@@ -2,9 +2,7 @@ body{
   background-color: #1a2325;
   color: white;
   font-family: "LFT Etica";
-  border-top: 5px solid #f8695a;
-}
-
+  border-top: 5px solid #f8695a;}
 
 h1{
   font-family: "Quatro Slab";
@@ -13,104 +11,45 @@ h1{
 
 p{
   font-size:16px;
-    color: #abadad;
-   width:400px;
-padding-bottom:15px;
-font-weight: 300;
-line-height: 22px;
-
-}
-
-
-
-
+  color: #abadad;
+  width:400px;
+  padding-bottom:15px;
+  font-weight: 300;
+  line-height: 22px;}
 
 h2{
   border-top:1px dotted #6d7171;
   padding:3px;
-  width:400px;
-
-}
-
-
-
-
+  width:400px;}
 
 article{
-   clear:both;
-
-
-
-}
-
-
+  clear:both;}
 
 article:nth-child(3){
-      border-top:1px dotted #6d7171;
-
-
-}
-
-
+   border-top:1px dotted #6d7171;}
 
 article:nth-child(4){
-      border-top:1px dotted #6d7171;
-      
+    border-top:1px dotted #6d7171;}
 
-
-
-}
-
-
-
-
-  
 .image{
-  float:right;
+   float:right;
    width:645px;
    position: relative;
    bottom:38px;
-   padding-bottom:50px;
-
-   
- }
-
-
-
+   padding-bottom:50px;}
 
 .logo{
-    width: 90px;
- 
-}
-
-
+    width: 90px;}
 
 .header,article{
- margin-right:auto;
-  margin-left:auto;
-   width: 1100px;
-
-
-}
-
-
-
-
-
+    margin-right:auto;
+    margin-left:auto;
+    width: 1100px;}
 
 .BUY{
   font-family: "Quatro Slab";
   font-size: 36px;
-  padding-top:50px;
-
-
-
-}
-
-
-
-
-
+  padding-top:50px;}
 
 .button {
     color: white;
@@ -123,43 +62,22 @@ article:nth-child(4){
     margin-left:20px;
     margin-top:-5px;
     text-decoration: none;
-     position:absolute;
-  }
-
+     position:absolute; }
 
 .button{
-
-background: repeating-linear-gradient(
-
-   45deg, #01ccce,
+    background: repeating-linear-gradient(
+    45deg, #01ccce,
       #01ccce 1px,
     #01c2c3 1px,
     #01c2c3 2px
-    );
- 
-
-}
-
-
-
-
-
+    );}
 
 a:hover{
-color: #f8695a;
-
-
-}
-
-
-
+color: #f8695a;}
 
 .Firstp{
 padding-top:10px;
 color: #454a4b;}
-
-
-
 
 .made{
   text-decoration: none;
@@ -168,21 +86,8 @@ color: #454a4b;}
   font-weight: 300;
   display: inline-block;
   padding-bottom:40px;
-  padding-top:30px;
- 
+  padding-top:30px;}
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
