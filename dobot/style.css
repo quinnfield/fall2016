@@ -23,13 +23,18 @@ h2{
   width:400px;}
 
 article{
-  clear:both;}
+  clear:both;
+}
 
-article:nth-child(3){
-   border-top:1px dotted #6d7171;}
 
-article:nth-child(4){
-    border-top:1px dotted #6d7171;}
+article{
+border-top:1px dotted #6d7171;}
+
+
+article:nth-last-child(3){
+border:none;
+}
+
 
 .image{
    float:right;
@@ -59,18 +64,19 @@ article:nth-child(4){
     font-weight: 600;
     padding: 15px 28px;
     font-size: 14px;
-    margin-left:20px;
-    margin-top:-5px;
+    margin-left:90px;
+    margin-top: -45px;
     text-decoration: none;
-     position:absolute; }
-
-.button{
+     position:absolute; 
     background: repeating-linear-gradient(
     45deg, #01ccce,
       #01ccce 1px,
     #01c2c3 1px,
     #01c2c3 2px
     );}
+
+
+
 
 a:hover{
 color: #f8695a;}
