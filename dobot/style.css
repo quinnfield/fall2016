@@ -95,14 +95,11 @@ color: #454a4b;}
   padding-top:30px;}
 
 
-@media(max-width:800px){
 
-img{
-   float:left;
-   clear:both;
-   width:100%;}
 
-@media(max-width:700px){
+
+
+@media(max-width:1000px){
 p{
   font-size: 120%;
   line-height: 120%;
@@ -121,6 +118,11 @@ article{
     padding:5%;
     width: 100%;
     border:none;}
+
+    img{
+   float:left;
+   clear:both;
+   width:100%;}
  
 h2{
   border-top:1px dotted #6d7171;
@@ -163,7 +165,7 @@ h2{
 
 
 
-  
+
 
 
   
