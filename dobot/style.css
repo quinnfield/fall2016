@@ -26,15 +26,12 @@ article{
   clear:both;
 }
 
-
 article{
 border-top:1px dotted #6d7171;}
-
 
 article:nth-last-child(3){
 border:none;
 }
-
 
 .image{
    float:right;
@@ -75,9 +72,6 @@ border:none;
     #01c2c3 2px
     );}
 
-
-
-
 a:hover{
 color: #f8695a;}
 
@@ -95,12 +89,9 @@ color: #454a4b;}
   padding-top:30px;}
 
 
-
-
 @media(max-width:768px){
 
-
- .image{
+.image{
   float:left;
     width:90%;
    padding-top:10%;
@@ -145,8 +136,6 @@ font-size: 400%;}
 .logo{
     width: 150px;}}
 
-
-
 @media(max-width:414px){
 
 p{
@@ -168,7 +157,6 @@ h1{font-size: 180%;
     margin-left:auto;
     width: 70%;}
 
-
 .Firstp{
  font-size: 140%;}
 
@@ -192,24 +180,8 @@ font-size: 200%;}
     width: 120px;
     padding-bottom:10%;}
 
-
-
 article{
-   border:none;}
-
-
-
-
-}
-
-
-}
-
-
-
-
-
-
+   border:none;}}
 
 @media(max-width:375px){
  p{
@@ -231,7 +203,6 @@ h1{font-size: 180%;
     margin-left:auto;
     width: 70%;}
 
-
 .Firstp{
  font-size: 140%;}
 
@@ -255,18 +226,32 @@ font-size: 200%;}
     width: 120px;
     padding-bottom:10%;}
 
-
-
 article{
-   border:none;}
+   border:none;}}
 
 
+@media(max-width:320px){
 
+.Firstp{
+ font-size: 120%;
 
 }
 
+.made{
+  font-size:110%;}
+
+.button{
+  font-size:100%;
+  margin-left:20%;
+ margin-top:-13%;
+  font-size:120%;
+  padding:3%;}
+
+ img{
+width:120%;}
 
 
+}
 
 
 
