@@ -131,7 +131,7 @@ color: #454a4b;}
   padding-top:30px;}
 
 
-@media(max-width:1150px){
+@media(max-width:1151px){ /* This is 1150 */
 .image{
   float:left;
     width:95%;
@@ -150,12 +150,9 @@ article{
    padding-bottom:10%;
  }
 
-
- article:not(:nth-child(2)) {
+article:not(:nth-child(2)) {
  border-top:none;
 }
-
-
 
 p{
   font-size: 180%;
@@ -171,330 +168,234 @@ width:90%;}
 
 h2{
   border-top:2px dotted #6d7171;
-  width:90%;}
+  width:90%;}}
 
 
-}
+@media(max-width:1030px) { /* This is 1030 */
 
-
-
-
-@media(max-width:1000px){
-
-
-.image{
-  float:left;
-    width:90%;
-   padding-top:10%;
-   padding-bottom: 0%;}
-
-.header,article{
-    margin-right:auto;
-    margin-left:auto;
-    width: 60%;}
-
-h1{font-size: 350%;
-  width:120%;}
-
-article{
-   padding-bottom:10%;
- }
-
-
- article:not(:nth-child(2)) {
- border-top:none;
-}
+.image{ width:90%; }
 
 p{
   font-size: 150%;
-  line-height: 120%;
-  width:120%;}
-
-.button{
-  margin-top:-5%;
-  font-size:170%;
- }
-
-.BUY{
-font-size: 250%;}
-
-
-.Firstp{
- font-size: 250%;}
-
-.made{
-  font-size:200%;}
+  width:105%;}
 
 h2{
   border-top:2px dotted #6d7171;
-  width:115%;}}
+  width:105%;}
+
+.BUY{
+  font-size:300%;}
+
+.button{
+  margin-left:15%;
+ margin-top:-7%;
+  font-size:170%;
+  padding:3%;}}
 
 
+@media(max-width:920px) { /* This is 902 */
 
-
-
-@media(max-width:902px){
-
-.image{
-  float:left;
-    width:90%;
-   padding-top:10%;
-   padding-bottom: 0%;}
-
-.header,article{
-    margin-right:auto;
-    margin-left:auto;
-    width: 75%;}
-
-h1{font-size: 350%;
-  width:120%;}
-
-article{
-   border:none;
-  }
 
 p{
   font-size: 180%;
   line-height: 120%;
-  width:90%;}
-
-.Firstp{
- font-size: 250%;}
-
-.made{
-  font-size:200%;}
-
-h2{
-  border-top:2px dotted #6d7171;
-  width:95%;}
-
-.BUY{
-font-size: 400%;}
-
-.button{
-  margin-left:20%;
- margin-top:-9%;
-  font-size:170%;
-  padding:3%;}
-
+  width:115%;}
+ 
 .logo{
-    width: 150px;}}
-
-@media(max-width:803px){
-
-
-p{
-  font-size: 110%;
-  line-height: 120%;
-  width:100%;}
-
-h1{font-size: 300%;
-  width:100%;
-   padding-top:10%;
-   padding-bottom: 5%; }
-
- img{
-  float:left;
-    width:110%;}
-
-.header,article{
-    margin-right:auto;
-    margin-left:auto;
-    width: 70%;}
-
-.Firstp{
- font-size: 140%;}
-
-.made{
-  font-size:120%;
+    width: 120px;}
 
 }
-h2{
-  border-top:2px dotted #6d7171;
-  width:100%;
-padding-bottom:10%;
-}
 
-.BUY{
-font-size: 200%;
-padding-bottom: 5%}
 
-.button{
-  margin-left:20%;
- margin-top:-11%;
-  font-size:170%;
-  padding:3%;}
 
-.logo{
-    width: 120px;
-    padding-bottom:10%;}
-
-article{
-   border:none;}}
-
-@media(max-width:775px){
+@media(max-width:880px) { /* This is 802 */
 
 p{
-  font-size: 110%;
-  line-height: 120%;
-  width:100%;}
+  font-size: 170%;
+  width:98%;}
+
+h1{font-size: 290%;
+   width:118%;
+   padding-top:15%;
+   padding-bottom:4%;
+   }
+
+img{
+
+    width:115%;}
+
+.Firstp{
+ font-size: 230%;
+width:90%;}
+
+h2{
+  width:98%;}
+.made{
+  font-size:180%;}}
+
+
+@media(max-width:815px){ /* This is 815 */
 
 h1{font-size: 280%;
-  width:100%;
-   padding-top:10%;
-   padding-bottom: 5%; }
-
- img{
-  float:left;
-    width:110%;}
-
-.header,article{
-    margin-right:auto;
-    margin-left:auto;
-    width: 70%;}
+   width:118%;
+   padding-top:15%;
+   padding-bottom:4%;
+   }
 
 .Firstp{
- font-size: 140%;}
+ font-size: 200%;
+width:90%;}}
 
-.made{
-  font-size:120%;}
 
-h2{
-  border-top:2px dotted #6d7171;
-  width:100%;}
 
-.BUY{
-font-size: 200%;}
+@media(max-width:750px){ /* This is 750 */
 
-.button{
-  margin-left:20%;
- margin-top:-11%;
-  font-size:170%;
-  padding:3%;}
+h1{font-size: 260%;
+   width:118%;
+   padding-top:15%;
+   padding-bottom:4%;
+   }
 
-.logo{
-    width: 120px;
-    padding-bottom:10%;}
+.Firstp{
+ font-size: 200%;
+width:90%;}}
 
-article{
-   border:none;}}
 
-@media(max-width:725px){
+@media(max-width:736px){ /* This is 736 */
+
+h1{font-size: 250%;
+   width:118%;
+   padding-top:20%;
+   padding-bottom:5%;
+   }
+.Firstp{
+ font-size: 120%;
+width:90%;}
+ 
 
 p{
-  font-size: 110%;
-  line-height: 120%;
-  width:100%;}
+  font-size: 100%;
+  width:104%;}
+
+
+.made{
+  font-size:110%;}
+
+
+.button{
+  margin-left:25%;
+ margin-top:-8%;
+  font-size:170%;
+  padding:3%;}}
+
+
+
+@media(max-width:700px){ /* This is 700 */
+
+h1{font-size: 235%;
+   width:118%;
+   padding-top:20%;
+   padding-bottom:5%;
+   }
+
+
+@media(max-width:650px){ /* This is 650 */
+
+h1{font-size: 300%;
+   width:118%;
+   padding-top:20%;
+   padding-bottom:2%;
+   }
+
+
+
+@media(max-width:630px){ /* This is 630 */
 
 h1{font-size: 270%;
-  width:105%;
-   padding-top:10%;
-   padding-bottom: 5%; }
+   width:118%;
+   padding-top:20%;
+   padding-bottom:8%;
+   }
 
- img{
-  float:left;
-    width:110%;}
+.button{
+  margin-left:25%;
+ margin-top:-10%;
+  font-size:170%;
+  padding:3%;}}
 
-.header,article{
-    margin-right:auto;
-    margin-left:auto;
-    width: 70%;}
+
+
+
+
+
+@media(max-width:550px){ /* This is 550 */
+
+
+h1{font-size: 250%;
+   width:118%;
+   padding-top:20%;
+   padding-bottom:10%;
+   }
+
+
+
+
+@media(max-width:400px){ /* This is 400 */
+
+
+h1{font-size: 200%;
+   width:100%;
+   padding-top:20%;
+   padding-bottom:15%;}
+
 
 .Firstp{
- font-size: 140%;}
+ font-size: 130%;
+width:110%;}
+
 
 .made{
-  font-size:120%;}
+  font-size:90%;}
 
-h2{
-  border-top:2px dotted #6d7171;
-  width:100%;}
+.button{
+  margin-left:25%;
+  margin-top:-13%;
+  font-size:130%;
+  padding:5%;}
+  
+  .BUY{
+  font-size:250%;}
 
-.BUY{
-font-size: 200%;}
+
+@media(max-width:320px){ /* This is 320 */
+
+h1{font-size: 150%;
+   width:100%;
+   padding-top:20%;
+   padding-bottom:15%;}
+
+
+.made{
+  font-size:90%;}
+
+
+.Firstp{
+ font-size: 100%;
+width:100%;}
+
+.logo{
+    width: 100px;}
 
 .button{
   margin-left:20%;
- margin-top:-11%;
-  font-size:170%;
-  padding:3%;}
+  margin-top:-13%;
+  font-size:150%;
+  padding:5%;}
 
-.logo{
-    width: 120px;
-    padding-bottom:10%;}
-
-article{
-   border:none;}}
-
-@media(max-width:375px){
- p{
-  font-size: 110%;
-  line-height: 120%;
-  width:100%;}
-
-h1{font-size: 145%;
-  width:105%;
-   padding-top:10%;
-   padding-bottom: 10%; }
-
- img{
-  float:left;
-    width:110%;}
-
-.header,article{
-    margin-right:auto;
-    margin-left:auto;
-    width: 70%;}
-
-.Firstp{
- font-size: 140%;}
-
-.made{
-  font-size:120%;}
-
-h2{
-  border-top:2px dotted #6d7171;
-  width:100%;}
-
-.BUY{
-font-size: 200%;}
-
-.button{
-  margin-top:-15%;
-  font-size:170%;
- }
-
-.logo{
-    width: 120px;
-    padding-bottom:10%;}
-
-article{
-   border:none;}}
-
-@media(max-width:320px)
-
-{.Firstp{
- font-size: 120%;
-}
- .made{
-  font-size:110%;}
-.button{
-  font-size:100%;
-  margin-left:20%;
- margin-top:-13%;
-  font-size:120%;
-  padding:3%;}
-
- img{
-width:120%;
-}
-h1{
-  font-size:135%;
-  width:130%;
-  padding-top:15%;}
+  .BUY{
+  font-size:150%;}
 
 
 
-}
 
 
