@@ -36,8 +36,6 @@ article{
 }
 
 
-
-
 .image{
    float:right;
    width:645px;
@@ -94,6 +92,53 @@ color: #454a4b;}
   padding-top:30px;}
 
 
+@media(max-width:1100px){
+.image{
+  float:left;
+    width:95%;
+   padding-top:10%;
+   padding-bottom: 0%;}
+
+.header,article{
+    margin-right:auto;
+    margin-left:auto;
+    width: 90%;}
+
+h1{font-size: 300%;
+  width:80%;}
+
+article{
+   padding-bottom:10%;
+ }
+
+
+ article:not(:nth-child(2)) {
+ border-top:none;
+}
+
+
+
+p{
+  font-size: 180%;
+  line-height: 120%;
+  width:74%;}
+
+.Firstp{
+ font-size: 250%;}
+
+.made{
+  font-size:200%;}
+
+h2{
+  border-top:2px dotted #6d7171;
+  width:74%;}
+
+
+}
+
+
+
+
 @media(max-width:1030px){
 
 
@@ -125,7 +170,7 @@ article{
 p{
   font-size: 180%;
   line-height: 120%;
-  width:78%;}
+  width:74%;}
 
 .Firstp{
  font-size: 250%;}
@@ -135,7 +180,7 @@ p{
 
 h2{
   border-top:2px dotted #6d7171;
-  width:78%;}
+  width:74%;}
 
 
 }
@@ -186,6 +231,101 @@ font-size: 400%;}
 
 .logo{
     width: 150px;}}
+
+@media(max-width:700px){
+
+
+p{
+  font-size: 110%;
+  line-height: 120%;
+  width:100%;}
+
+h1{font-size: 180%;
+  width:120%;
+   padding-top:10%;
+   padding-bottom: 10%; }
+
+ img{
+  float:left;
+    width:110%;}
+
+.header,article{
+    margin-right:auto;
+    margin-left:auto;
+    width: 70%;}
+
+.Firstp{
+ font-size: 140%;}
+
+.made{
+  font-size:120%;}
+
+h2{
+  border-top:2px dotted #6d7171;
+  width:100%;}
+
+.BUY{
+font-size: 200%;}
+
+.button{
+  margin-left:20%;
+ margin-top:-11%;
+  font-size:170%;
+  padding:3%;}
+
+.logo{
+    width: 120px;
+    padding-bottom:10%;}
+
+article{
+   border:none;}}
+
+@media(max-width:450px){
+
+p{
+  font-size: 110%;
+  line-height: 120%;
+  width:100%;}
+
+h1{font-size: 180%;
+  width:120%;
+   padding-top:10%;
+   padding-bottom: 10%; }
+
+ img{
+  float:left;
+    width:110%;}
+
+.header,article{
+    margin-right:auto;
+    margin-left:auto;
+    width: 70%;}
+
+.Firstp{
+ font-size: 140%;}
+
+.made{
+  font-size:120%;}
+
+h2{
+  border-top:2px dotted #6d7171;
+  width:100%;}
+
+.BUY{
+font-size: 200%;}
+
+.button{
+  margin-left:20%;
+ margin-top:-11%;
+  font-size:170%;
+  padding:3%;}
+
+.logo{
+    width: 120px;
+    padding-bottom:10%;}
+
+article{
+   border:none;}}
 
 @media(max-width:414px){
 
@@ -279,7 +419,6 @@ font-size: 200%;}
 
 article{
    border:none;}}
-
 
 @media(max-width:320px)
 
