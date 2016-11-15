@@ -335,12 +335,12 @@ h1{font-size: 250%;
    width:118%;
    padding-top:20%;
    padding-bottom:10%;
-   }
+   }}
 
 
 
 
-@media(max-width:400px){ /* This is 400 */
+@media(max-width:414px){ /* This is 400 */
 
 
 h1{font-size: 200%;
@@ -364,7 +364,7 @@ width:110%;}
   padding:5%;}
   
   .BUY{
-  font-size:250%;}
+  font-size:250%;}}
 
 
 @media(max-width:320px){ /* This is 320 */
@@ -393,7 +393,7 @@ width:100%;}
   padding:5%;}
 
   .BUY{
-  font-size:150%;}
+  font-size:150%;}}
 
 
 
