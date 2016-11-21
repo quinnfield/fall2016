@@ -1,0 +1,67 @@
+
+
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('fonts/RobotoSlab-egular.eot');
+  src: url('fonts/RobotoSlab-egular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/RobotoSlab-regular.woff2') format('woff2'),
+       url('fonts/RobotoSlab-regular.woff') format('woff'),
+       url('fonts/RobotoSlab-regular.ttf') format('truetype'),
+       url('fonts/RobotoSlab-regularsvg#RobotoSlabregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+ font-family:RobotoSlab;
+ background-color: #C2B59B;
+
+}
+
+.nav {
+    list-style-type: none;
+      text-decoration: none;
+     padding-top:200px;
+     line-height: 20px;
+     position: fixed;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.welcome{
+	text-align: center;
+	padding-bottom:900px;
+	padding-top:400px;
+}
+
+.title{
+	font-size: 100px;
+     text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
+	color:red;
+}
+
+
+
+
+.logo{
+	width:200px;
+	position:fixed;
+}
+
+
+img{
+	width:700px;
+	float:right;
+	padding-right:200px;
+
+}
+
+
+.about p{
+	padding-top:3300px;
+}
