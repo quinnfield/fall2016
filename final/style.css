@@ -23,26 +23,53 @@ body{
 .nav {
     list-style-type: none;
       text-decoration: none;
-     padding-top:200px;
-     line-height: 20px;
+     padding-top:170px;
+     line-height: 40px;
      position: fixed;
+   }
+
+
+ul{
+   background-color: #F9ED32; 
+  padding:65px; 
+
+  }
+
+
+li{
+  padding-top:25px;
+
+  
+
 }
+
+
 
 a{
 	text-decoration: none;
+    color:black;
+
+
+  
+
 }
+
 
 
 .welcome{
 	text-align: center;
-	padding-bottom:900px;
-	padding-top:400px;
+	padding-bottom:500px;
+	padding-top:250px;
+  padding-left:150px;
+  font-family:DINCond;
+
+
 }
 
 .title{
-	font-size: 100px;
-     text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
-	color:red;
+	font-size: 120px;
+   color:#F9ED32;
+
 }
 
 
@@ -54,14 +81,22 @@ a{
 }
 
 
-img{
-	width:700px;
-	float:right;
-	padding-right:200px;
+.images{
+  padding-left:230px;
+
+
+	
+
+
+}
+.about img{
+  padding-left:230px;
+  padding-top:50px;
 
 }
 
-
 .about p{
-	padding-top:3300px;
+	padding-top:50px;
+  width:730px;
+  padding-left:230px;
 }
