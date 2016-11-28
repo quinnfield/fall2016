@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'RobotoSlab';
-  src: url('fonts/RobotoSlab-egular.eot');
-  src: url('fonts/RobotoSlab-egular.eot?#iefix') format('embedded-opentype'),
+  src: url('fonts/RobotoSlab-regular.eot');
+  src: url('fonts/RobotoSlab-regular.eot?#iefix') format('embedded-opentype'),
        url('fonts/RobotoSlab-regular.woff2') format('woff2'),
        url('fonts/RobotoSlab-regular.woff') format('woff'),
        url('fonts/RobotoSlab-regular.ttf') format('truetype'),
@@ -14,89 +14,78 @@
 }
 
 
-body{
- font-family:RobotoSlab;
- background-color: #C2B59B;
-
+@font-face {
+  font-family: 'FjallaOne';
+  src: url('fonts/FjallaOne-regular.eot');
+  src: url('fonts/FjallaOne-regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FjallaOne-regular.woff2') format('woff2'),
+       url('fonts/FjallaOne-regular.woff') format('woff'),
+       url('fonts/FjallaOne-regular.ttf') format('truetype'),
+       url('fonts/FjallaOne-regularsvg#FjallaOne-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.nav {
+
+
+
+
+body{
+ font-family:FjallaOne;
+ background-color: #C2B59B;
+ font-size:20px;
+ width:1200px;}
+
+h1{
+  font-family:RobotoSlab;
+  font-size: 36px;
+  padding-top:100px;}
+
+article{
+  clear:both;}
+ 
+.images{
+   float:center;
+   width:645px;
+   position: relative;
+   bottom:38px;
+   padding-bottom:50px;}
+
+article{
+    margin-right:auto;
+    margin-left:auto;
+    width: 1100px;}
+
+a:hover{
+color: #f8695a;}
+
+ .nav {
     list-style-type: none;
       text-decoration: none;
-     padding-top:170px;
-     line-height: 40px;
-     position: fixed;
-   }
-
+    line-height: 40px;
+     position: fixed;}
 
 ul{
    background-color: #F9ED32; 
-  padding:65px; 
-
-  }
-
-
-li{
-  padding-top:25px;
-
-  
-
-}
-
+  padding:65px; }
 
 
 a{
-	text-decoration: none;
-    color:black;
-
-
-  
-
-}
-
-
+  text-decoration: none;
+    color:black;}
 
 .welcome{
-	text-align: center;
-	padding-bottom:500px;
-	padding-top:250px;
-  padding-left:150px;
-  font-family:DINCond;
-
-
-}
-
+  text-align:center;
+  }
+  
 .title{
-	font-size: 120px;
-   color:#F9ED32;
-
-}
-
-
+  font-family:AmaticSC-regular;
+  font-size: 120px;
+   color: #F9ED32;}
 
 
 .logo{
-	width:200px;
-	position:fixed;
-}
+  width:200px;
 
+ }
 
-.images{
-  padding-left:230px;
-
-
-	
-
-
-}
-.about img{
-  padding-left:230px;
-  padding-top:50px;
-
-}
-
-.about p{
-	padding-top:50px;
-  width:730px;
-  padding-left:230px;
-}
