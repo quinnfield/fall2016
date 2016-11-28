@@ -1,12 +1,12 @@
 
 @font-face {
   font-family: 'FjallaOne';
-  src: url('fonts/FjallaOne-regular.eot');
-  src: url('fonts/FjallaOne-regular.eot?#iefix') format('embedded-opentype'),
-       url('fonts/FjallaOne-regular.woff2') format('woff2'),
-       url('fonts/FjallaOne-regular.woff') format('woff'),
-       url('fonts/FjallaOne-regular.ttf') format('truetype'),
-       url('fonts/FjallaOne-regularsvg#FjallaOne-regular') format('svg');
+  src: url('fonts/FjallaOne-Regular.eot');
+  src: url('fonts/FjallaOne-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FjallaOne-Regular.woff2') format('woff2'),
+       url('fonts/FjallaOne-Regular.woff') format('woff'),
+       url('fonts/FjallaOne-Regular.ttf') format('truetype'),
+       url('fonts/FjallaOne-Regularsvg#FjallaOne-regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
