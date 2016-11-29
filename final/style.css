@@ -33,8 +33,7 @@ article{
    float:center;
    width:645px;
    position: relative;
-   bottom:38px;
-   padding-bottom:50px;}
+  padding-bottom:350px;}
 
 article{
     margin-right:auto;
@@ -61,6 +60,7 @@ a{
 
 .welcome{
   text-align:center;
+  padding-bottom:350px;
   }
   
 .title{
@@ -74,3 +74,10 @@ a{
 
  }
 
+.about{
+  float:center;
+   width:645px;
+   position: relative;
+  
+
+}
