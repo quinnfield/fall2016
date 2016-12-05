@@ -11,20 +11,35 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Regular.eot');
+  src: url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('fonts/Montserrat-Regular.woff') format('woff'),
+       url('fonts/Montserrat-Regular.ttf') format('truetype'),
+       url('fonts/Montserrat-One-Regularsvg#Montserrat-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
 
 body{
- font-family:FjallaOne;
+ font-family:Montserrat;
  background-color: #414042;
- font-size:20px;
+ font-size:18px;
+
+
 
 }
 
 .welcome p{
   color:#fff200;
 line-height: 30px;
+font-size:15px;
+
 
 }
 
@@ -38,7 +53,9 @@ h1{
   font-family:FjallaOne;
   font-size: 36px;
   padding-top:70px;
-  font-color: #fff200;}
+  font-color: #fff200;
+  padding-bottom: 14px;
+}
 
 article{
   clear:both;}
@@ -58,12 +75,16 @@ color: white;}
       text-decoration: none;
     line-height: 40px;
      position: fixed;
-   color:#fff200;}
+   color:#fff200;
+   padding-top: 200px;}
 
 ul{
   
   padding:65px; 
-color:#fff200;}
+color:#fff200;
+font-family: Montserrat;
+font-size:19px;
+}
 
 
 a{
@@ -85,17 +106,31 @@ a{
 
 .logo{
   width:200px;
+  position: fixed;
+ 
 
  }
 
 
+.about img{
+  width:200px;
+  float:right;
+  clear:both;
+  padding-left:20px;
+  padding-bottom: 10px;
 
+
+}
 
 .about{
   width:500px;
   float:center;
+color:white;
+line-height: 25px;
+padding-top:22px;}
 
-
+.about h1{
+  color:#fff200;
 }
 
 
@@ -103,22 +138,27 @@ a{
 
 
 
-.image img{
-  padding-top:10px;
-  display:block;
-  float:right;
+.column img{
+width:200px;
+  display:inline-block;
+    float:left;
+    padding:10px;
+
+}
+
+
+
+.column ul{
   margin-right: auto;
-  margin-left:auto;
-  padding:10px;
-  width:340px;
+  margin-left: auto;
+  width:700px;
+  padding-top: 250px;
+  
 
+ 
+ 
+}
 
- }
-
-
- .portfolio{
-  padding-right:200px;
-
-
-
+.column h1{
+  padding-top:10px;
 }
