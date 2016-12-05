@@ -76,7 +76,7 @@ color: white;}
     line-height: 40px;
      position: fixed;
    color:#fff200;
-   padding-top: 200px;}
+   padding-top: 180px;}
 
 ul{
   
@@ -151,9 +151,10 @@ width:200px;
 .column ul{
   margin-right: auto;
   margin-left: auto;
-  width:700px;
+  width:900px;
   padding-top: 250px;
-  
+  padding-right:10px;
+
 
  
  
