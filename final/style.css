@@ -39,11 +39,18 @@ body{
   color:#fff200;
 line-height: 30px;
 font-size:15px;
+margin-right: auto;
+margin-left: auto;
 
 
 }
 
+.welcome{
+  text-align:center;
+  padding-top:180px;
 
+
+  }
 
 
 
@@ -89,27 +96,25 @@ font-size:19px;
 
 a{
   text-decoration: none;
-   color:#fff200;}
-
-.welcome{
-  text-align:center;
+   color:#fff200;
+ }
 
 
-  }
-  
+.nav li:hover{
+border-bottom:1px dotted white;
+}
+
+
+
 .title{
   font-family:FjallaOne;
   font-size: 120px;
- color:white;
-}
+ color:white;}
 
 
 .logo{
   width:200px;
-  position: fixed;
- 
-
- }
+  position: fixed;}
 
 
 .about img{
@@ -117,24 +122,17 @@ a{
   float:right;
   clear:both;
   padding-left:20px;
-  padding-bottom: 10px;
-
-
-}
+  padding-bottom: 10px;}
 
 .about{
-  width:500px;
+  width:700px;
   float:center;
 color:white;
 line-height: 25px;
-padding-top:22px;}
+padding-top:250px;}
 
 .about h1{
-  color:#fff200;
-}
-
-
-
+  color:#fff200;}
 
 
 
@@ -143,7 +141,10 @@ width:200px;
   display:inline-block;
     float:left;
     padding:10px;
+  }
 
+a:active {
+    color: black;
 }
 
 
@@ -152,14 +153,8 @@ width:200px;
   margin-right: auto;
   margin-left: auto;
   width:900px;
-  padding-top: 250px;
+  padding-top: 200px;
   padding-right:10px;
+  }
 
 
- 
- 
-}
-
-.column h1{
-  padding-top:10px;
-}
