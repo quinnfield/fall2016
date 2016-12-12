@@ -61,7 +61,6 @@ h1{
   font-family:FjallaOne;
   font-size: 36px;
   padding-top:70px;
-  font-color: #fff200;
   padding-bottom: 14px;
 }
 
@@ -179,9 +178,7 @@ a:active {
   display: inline-block;
   width: 60px;
   height: 60px;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: #FFF6CE;
+ color: #FFF6CE;
   margin-bottom: 30px;
     width:100px;
 margin-left:40px;
@@ -199,9 +196,11 @@ margin-left:40px;
 
 
 .icon:hover{
-  fill:#FEE15B;
+  color:red;
   cursor:pointer;
 }
+
+
 
 
 @media(max-width:900px){ /* This is 400 */
@@ -210,9 +209,9 @@ float:left;
         display: block;
       text-decoration: none;
       padding-right: 10px;
-      background-color:#414042;
+       background-color:#414042;
       font-size:100%;
-   color:#fff200;
+ 
 }
 
 .about{
@@ -235,29 +234,18 @@ h1{
   font-family:FjallaOne;
   font-size: 36px;
   padding-top:200px;
-  font-color: #fff200;
   padding-bottom: 14px;
 }
 
-
 .column ul {
 width:400px;
-float:right;
-
-
-
-
-
-  }
+float:right;}
 
 .column img{
 width:100px;
- 
-  display:block;
-  float:left;
-    
-
-  }
+ display:block;
+float:left;
+    }
 
 .column h1{
   font-size:140%;
@@ -266,5 +254,151 @@ width:100px;
 .logo{
   width:200px;
   margin-left:140px;}
+
+}
+@media(max-width:897px){ /* This is 400 */
+.nav a{
+  
+  padding-right:20px;
+  margin-left:20px;}
+p{
+  font-size:70%;
+}
+
+.logo{
+  margin-left:250px;
+}
+.nav li:hover{
+border-bottom:none;
+
+
+}
+
+
+
+
+
+@media(max-width:652px){ /* This is 400 */
+.nav a{
+  font-size:75%;
+  padding-right:15px;
+text-align:center;
+margin-left:45px;}
+p{
+  font-size:70%;
+}
+
+.logo{
+  margin-right:30px;
+}
+
+}
+
+
+
+@media(max-width:649px){ 
+
+.nav a{
+    font-size:75%;
+  padding-right:15px;
+text-align:center;
+margin-left:40px;}
+}
+
+
+p{
+  font-size:70%;
+}
+
+.logo{
+  margin-left:220px;
+}
+
+.icon{
+  margin-right:30px;
+}
+
+
+}
+
+
+
+@media(max-width:628px){ 
+.nav a{
+  font-size:70%;
+  margin-left:40%;
+}
+p{
+  font-size:70%;
+}
+
+.logo{
+  margin-left:35%;
+}
+
+.icon{
+  margin-right:30px;
+}
+
+
+}
+
+
+@media(max-width:624px){ 
+.nav a{
+  font-size:70%;
+  margin-left:40%;
+}
+p{
+  font-size:70%;
+}
+
+.logo{
+  margin-left:35%;
+}
+
+.icon{
+  margin-right:30px;
+}
+
+
+}
+
+@media(max-width:584px){ 
+.nav a{
+  font-size:60%;
+  margin-left:40%;
+}
+p{
+  font-size:70%;
+}
+
+.logo{
+  margin-left:35%;
+}
+
+.icon{
+  margin-right:30px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
